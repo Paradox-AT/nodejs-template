@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "This is a template for Node.Js project",
+  "main": "app.ts",
+  "scripts": {
+    "start": "tsx watch --clear-screen=false --inspect-brk --env-file-if-exists=.env app.ts",
+    "serve": "tsc && node --env-file=.env dist/app.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "template"
+  ],
+  "author": "Paradox",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node-ts": "^23.6.1",
+    "@tsconfig/node22": "^22.0.2",
+    "@types/node": "^24.6.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.17.1"
+}
