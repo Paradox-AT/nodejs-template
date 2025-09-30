@@ -5,10 +5,8 @@ A boilerplate Node.js project using TypeScript, organized for scalable applicati
 ## Features
 
 - TypeScript support
-- Modular folder structure (controllers, models, repositories, services, middlewares)
-- Example routing
-- Ready for testing and extension
-- Uses pnpm for package management
+- Typescript best practices enforced
+- Uses pnpm for faster package management
 
 ## Project Structure
 
@@ -55,6 +53,23 @@ pnpm build
 - `pnpm start` — Start the application in watch mode with tsx (recommended for development)
 - `pnpm serve` — Build and run the compiled app from `dist/app.js` (for production)
 - `pnpm build` — Compile TypeScript to JavaScript
+
+## Using This Repository as a Template
+
+You can use this repository as a template for your own Node.js projects:
+
+1. On GitHub, click the "Use this template" button at the top of the repository page.
+2. Create a new repository from the template.
+3. Clone your new repository:
+   ```zsh
+   git clone https://github.com/<your-username>/<your-repo-name>.git
+   cd <your-repo-name>
+   ```
+4. Install dependencies:
+   ```zsh
+   pnpm install
+   ```
+5. Start building your project!
 
 ## Contributing
 
