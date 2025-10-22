@@ -1,12 +1,23 @@
-# Node.js Template
+# 🚀🔥 Node.js + TypeScript Template (pnpm + tsx)
 
-A boilerplate Node.js project using TypeScript, organized for scalable application development.
+A modern, lightning-fast Node.js starter template with TypeScript, pnpm, and tsx for zero-build backend development. Ready-to-use 🚀 scripts for start, dev, build plus ✅ type safety & IntelliSense
 
-## Features
+## ⚡ Features
 
-- TypeScript support
-- Typescript best practices enforced
-- Uses pnpm for faster package management
+- 💻 Node.js + TypeScript – Strongly typed backend development for scalability and maintainability.
+- 📦 pnpm – Fast, disk-efficient package manager with deterministic installs.
+- ⚡ tsx – Execute TypeScript directly without pre-compilation, supporting ESM modules.
+- 🔄 Hot Reloading (optional): Integrated with tsx for seamless development experience.
+- 🛠️ Dev Scripts – Ready-to-use commands for development, build, and production.
+- ✅ Type Safety & IntelliSense – Full TypeScript support for robust code and better developer experience.
+- ⚙️ Easy Setup – Minimal configuration; clone, install, and start coding immediately.
+
+## Tech Stack
+
+- Runtime: Node.js (v18+)
+- Language: TypeScript
+- Package Manager: pnpm
+- Executor: ts-node
 
 ## Project Structure
 
@@ -36,22 +47,29 @@ tsconfig.json
 pnpm install
 ```
 
+### Run the application(development)
+
+```zsh
+pnpm dev
+```
+
 ### Run the application
 
 ```zsh
 pnpm start
 ```
 
-### Build the application
+### Build and serve the application
 
 ```zsh
 pnpm build
+pnpm serve
 ```
 
 ## Scripts
 
-- `pnpm start` — Start the application in watch mode with tsx (recommended for development)
-- `pnpm serve` — Build and run the compiled app from `dist/app.js` (for production)
+- `pnpm dev` — Start the application in watch mode with tsx (recommended for development)
+- `pnpm serve` — Run the compiled app from `dist/app.js` (for production)
 - `pnpm build` — Compile TypeScript to JavaScript
 
 ## Using This Repository as a Template
